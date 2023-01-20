@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+         .item-1 {
+          background-color: rgb(219, 105, 190);
+          min-height: 100px;
+        }
+
+        .item-2 {
+            background-color: rgb(102, 216, 163);
+            min-height: 100px;
+        }
+
+        .item-3 {
+          background-color: rgb(93, 213, 213);
+          min-height: 100px;
+        }
+
+        .item-4 {
+           background-color: rgb(227, 222, 80);
+           min-height: 100px;
+        }
+
+        .item-5 {
+             background-color: rgb(200, 108, 231);
+             min-height: 100px;
+        }
+        .grid-wrapper {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+           grid-template-rows: auto;
+           grid-gap: 2vw;
+        }
+    </style>
+    <!-- Стиль для экрана менее 600px брать из файла со стилями (доступны операторы: and, not, only)-->
+    <!-- <link rel="stylesheet" media="screen and (max-width: 600px)" href="special-style.css"> -->
+    
+    <!-- Для мобильных браузеров. Подстраиваться под ширину мобильного устройства, коэффициент масштабирования 1  -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  </head>
+
+  <body>
+    <h1>Грид</h1>
+    <div class="grid-wrapper">
+        <div class="grid-item item-1"></div>
+        <div class="grid-item item-2"></div>
+        <div class="grid-item item-3"></div>
+        <div class="grid-item item-4"></div>
+        <div class="grid-item item-5"></div>
+    </div>
+
+</body>
+
+</html>
