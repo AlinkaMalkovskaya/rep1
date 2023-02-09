@@ -1,0 +1,39 @@
+@font-face {
+    src: url('../fonts/Comfortaa-VariableFont_wght');
+    font-family: 'Comfortaa VariableFont';
+}
+.nav{
+    overflow: hidden;
+    background-color:#faeffa;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   }
+.nav a{
+    float: left;
+    font-family: sans-serif;
+    display: block;
+    color: darkmagenta;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+} 
+.nav a:hover{
+    background-color:#f8e3f8;
+    color: black;
+}   
+h1{
+    font-family: 'Comfortaa VariableFont', Arial, Helvetica, sans-serif;
+    padding: 14px 0px 0px 30px
+}
+p{
+    color:rgb(60, 60, 60);
+    padding: 0px 10px 0px 10px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.list1{
+    font-family: sans-serif;
+    color:rgb(60, 60, 60);
+}

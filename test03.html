@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      h1 {
+        background-color: #F0BA7D;
+        display:block;
+        width:400px;
+        margin: 0 auto;
+        }
+
+      h2 {
+        background-color: #CADADD;
+        display:block;
+        width:400px;
+        margin: 50px auto 0;
+        padding: 10px 25px 20px;
+      }
+      /* div {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        } */
+      .red {
+         background-color: red;
+         position: sticky;
+         top: 20px;
+         left: 50px;
+         z-index: -1;
+         }
+      .yellow {
+        background-color: yellow;
+        }
+      .blue {
+        background-color: blue;
+        }
+      .wrapper {
+        padding: 15px 5px;
+        display: flex; 
+        align-items: flex-start;
+        flex-direction: row-reverse;
+        /* flex-flow: column-reverse; */
+      }
+
+      .item {
+        margin: 5px;
+        padding: 10px;
+        background: linear-gradient(45deg, rgb(112, 112, 211),rgb(90, 233, 125));
+        color: white;
+        width: 70px;
+      
+      }
+      /* .item:nth-child(even) {
+        display: none;
+      } */
+      /* .item:nth-child(odd) {
+        position: relative;
+        left: 50px;
+      } */
+      /* .item:first-child {
+        position: sticky;
+        top: 0;
+        margin-left: 55px;
+      } */
+      .pink {
+        width: 100%;
+        height: 200px;
+        background: pink;
+        position: relative;
+      }
+
+      h3 {
+        font-size: 100px;
+        padding: 50px;
+        margin: 0;
+        position: relative;
+        top:-210px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Базовые свойства. Расстояния, границы и отступы</h1>
+    <h2>Занимательный подзаголовок</h2><br>
+    <div class="red"></div>
+    <div class="yellow"></div>
+    <div class="blue"></div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quae sed, magni nemo animi optio illo! Aut eius sapiente corporis exercitationem sint iure suscipit aperiam, obcaecati temporibus iste architecto minima.</p>
+    <div class="wrapper">
+        <span class="item">1</span>
+        <span class="item">2</span>
+        <span class="item">3</span>
+        <span class="item">4</span>
+        <span class="item">5</span>
+        <span class="item">6</span>
+        <span class="item">7</span>
+        <span class="item">8</span>
+        <span class="item">9</span>
+        <span class="item">10</span>
+      </div><br>
+      <div class="pink"></div>
+      <h3>Position</h3>
+
+</body>
+
+</html>
+<!-- Использование flex:
+
+display: flex;
+flex-direction: column; - если надо раположить вертикально друг под другом
+justify-contant: flex-start; - выравнивание по горизонтали
+align-items: center; - выравнивание по вертикали
+width: calc(100% / 4); - расчётная ширина для 4х одинаковых блоков от 100% ширины экрана
+--> 
+

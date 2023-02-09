@@ -1,0 +1,105 @@
+html{
+    font-size: 40px;
+}
+h1{
+  color:#000000;
+  background-color: rgba(255,255,255,0.8);  
+  font-size: 40px;
+}
+h2{
+    font-size: 0.5rem;
+}
+body {
+    background-image: url("https://phonoteka.org/uploads/posts/2021-04/1618557817_50-phonoteka_org-p-razmitii-fon-komnati-58.jpg");
+}
+p {
+    color: #ffffff;
+    font-size: 16px;
+}
+p:nth-child(2n) {
+    background-color: rgba(0,0,0,0.7)
+}
+p:nth-child(2n+1) {
+    background-color: rgba(0,0,0,0.3)
+}
+ul{
+    font-size: 1.2em;
+    margin:0px;
+}
+
+.block1
+{
+display:inline-block;
+margin:30px 0px 30px 30px;
+padding: 5px 10px;    
+background: #ffb06f;
+border-width: 2px;
+border-style: solid; 
+border-color: #f37711 #7ef311 #11abf3 #c611f3;
+width: 100px;
+height: 100px;
+font-size: 0.5em;
+border-radius: 15px;
+text-align: center;
+}
+.block2
+{
+display:inline-block;
+margin:30px 0px 30px 30px;
+padding: 5px 10px;
+background: #ffb06f;
+border: 5px double #f37711;
+width: 100px;
+height: 100px;
+font-size: 0.5em;
+text-align: center;
+}
+.block3
+{
+display:inline-block;
+margin:30px 0px 30px 30px;
+padding: 5px 10px;
+background: #ffb06f;
+border: 2px dotted #f37711;
+width: 100px;
+height: 100px;
+font-size: 0.5em;
+border-radius: 50%;
+text-align: center;
+}
+.block4
+{
+display:inline-block;
+margin:30px 0px 30px 30px;
+padding: 5px 10px;
+background: #ffb06f;
+border: 2px dashed #f37711;
+width: 100px;
+height: 100px;
+font-size: 0.5em;
+text-align: center;
+}
+.block5
+{
+display:inline-block;
+margin:30px 0px 30px 30px;
+padding: 5px 10px;
+background: #ffb06f;
+border: 2px inset #f37711;
+width: 100px;
+height: 100px;
+font-size: 0.5em;
+text-align: center;
+}
+.block6
+{
+display:inline-block;
+margin:30px 0px 30px 30px;
+padding: 5px 10px;
+background: #ffb06f;
+border: 2px outset #f37711;
+width: 100px;
+height: 100px;
+font-size: 0.5em;
+text-align: center;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      .blue {
+        width: 200px;
+        height: 200px;
+        background: blue;
+        position: absolute;
+        z-index: 0;
+      }
+
+      .red {
+        width: 100px;
+        height: 100px;
+        background: red;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        z-index: 1;
+      }
+
+      h1 {
+        font-size: 100px;
+        padding: 50px;
+        margin: 0;
+        position: absolute;
+        z-index: 2;
+      }
+      p{
+        position: relative;
+        top:250px;
+        cursor: wait;
+      }
+      .name-text {
+        font-weight: bold;
+        }
+
+      .prof-text {
+        color: rgb(201, 29, 29);
+        }
+
+      .city-text {
+          font-style: italic;
+        }
+       .button {
+        display: inline;
+        justify-content: space-around;
+        font-size: 200%;
+        position: relative;
+        top:350px;
+        box-sizing: border-box;
+        padding: 0 30px;
+       } 
+
+    </style>
+  </head>
+
+  <body>
+    <div class="blue">
+      <div class="red"></div>
+    </div>
+    <h1>Position</h1>
+    <p>Меня зовут <span class="name-text">Вася</span>. Я работаю <span class="prof-text">маркетологом</span>. Решил получше узнать смежную профессию, чтобы разобраться, как устроен веб.</p>
+        <p>Живу в <span class="city-text">Питере</span>. Люблю кататься на велосипеде.</p>
+    <ul>
+        <li class="button">Кнопка</li>
+        <li class="button">Кнопка</li>
+        <li class="button">Кнопка</li>
+        <li class="button">Кнопка</li>
+        <li class="button">Кнопка</li>
+    </ul>
+    </body>
+
+  
+
+</html>
